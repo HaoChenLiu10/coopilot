@@ -1,0 +1,172 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #f4f6f8;
+  color: #1f2937;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 48px 24px;
+}
+
+.hero {
+  margin-bottom: 32px;
+}
+
+.eyebrow {
+  margin: 0 0 8px;
+  color: #2563eb;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 48px;
+}
+
+.subtitle {
+  max-width: 720px;
+  color: #4b5563;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.input-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+.input-card,
+.result-card {
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.06);
+}
+
+.input-card h2 {
+  margin-top: 0;
+}
+
+textarea {
+  width: 100%;
+  min-height: 280px;
+  padding: 14px;
+  border: 1px solid #d1d5db;
+  border-radius: 12px;
+  font-size: 14px;
+  line-height: 1.5;
+  resize: vertical;
+}
+
+textarea:focus {
+  outline: none;
+  border-color: #2563eb;
+}
+
+button {
+  margin-top: 24px;
+  padding: 14px 24px;
+  background: #111827;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #000000;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.result-card {
+  margin-top: 32px;
+}
+
+.score-box {
+  background: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  padding: 20px;
+  margin-bottom: 24px;
+}
+
+.score-box p {
+  margin: 0;
+  color: #6b7280;
+}
+
+.score-box h2 {
+  margin: 8px 0 0;
+  font-size: 40px;
+}
+
+.result-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.tag {
+  padding: 8px 12px;
+  border-radius: 999px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.matched {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.missing {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+.suggestions {
+  margin-top: 24px;
+}
+
+.suggestions li {
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+
+.muted {
+  color: #6b7280;
+}
+
+@media (max-width: 800px) {
+  .input-grid,
+  .result-grid {
+    grid-template-columns: 1fr;
+  }
+
+  h1 {
+    font-size: 38px;
+  }
+}
