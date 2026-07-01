@@ -1,5 +1,6 @@
 \# Co-opPilot
 
+[![Co-opPilot CI](https://github.com/HaoChenLiu10/coopilot/actions/workflows/ci.yml/badge.svg)](https://github.com/HaoChenLiu10/coopilot/actions/workflows/ci.yml)
 
 
 Co-opPilot is a full-stack web application that helps students analyze how well their resume matches a co-op job description. It extracts technical skills from both the resume and job posting, calculates a match score, identifies missing skills, and provides resume improvement suggestions.
