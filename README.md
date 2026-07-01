@@ -29,6 +29,17 @@ Co-opPilot is a full-stack web application that helps students analyze how well 
 
 \- Pytest unit tests
 
+## Demo
+
+![Co-opPilot Demo](screenshots/coopilot-demo.png)
+
+## API Documentation
+
+![FastAPI Docs](screenshots/api-docs.png)
+
+## Continuous Integration
+
+![GitHub Actions CI](screenshots/ci-pipeline.png)
 
 
 \## Tech Stack
